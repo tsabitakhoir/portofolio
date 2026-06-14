@@ -1,10 +1,8 @@
-import Image from "next/image";
-
 export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center px-6 pt-16"
+      className="min-h-screen flex items-center justify-center px-6 pt-20 pb-12"
     >
       <div className="max-w-4xl w-full flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16">
         {/* Text */}
@@ -12,32 +10,32 @@ export default function Hero() {
           <p className="text-sm font-semibold tracking-widest text-indigo-500 dark:text-indigo-400 uppercase mb-3">
             Hello, world 👋
           </p>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
-            Your Name
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
+            Tsabita Khoirunnisa
           </h1>
-          <p className="mt-3 text-xl sm:text-2xl font-medium text-indigo-600 dark:text-indigo-400">
-            Full-Stack Developer
+          <p className="mt-3 text-lg sm:text-2xl font-medium text-indigo-600 dark:text-indigo-400">
+            Software Developer
           </p>
-          <p className="mt-5 text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-xl leading-relaxed">
-            I build fast, accessible, and beautiful web experiences — from pixel-perfect UIs to scalable back-end APIs.
+          <p className="mt-5 text-sm sm:text-lg text-gray-600 dark:text-gray-400 max-w-xl mx-auto md:mx-0 leading-relaxed">
+            I love building things that actually work — from collaborative web apps to IoT systems. Always curious about new tech and turning ideas into products people can use.
           </p>
 
           {/* CTA Buttons */}
-          <div className="mt-8 flex flex-wrap justify-center md:justify-start gap-3">
+          <div className="mt-8 flex flex-col sm:flex-row justify-center md:justify-start gap-3">
             <a
-              href="https://github.com/username"
+              href="https://github.com/tsabitakhoir"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-medium text-sm hover:opacity-80 transition-opacity"
+              className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-medium text-sm hover:opacity-80 transition-opacity"
             >
               <GithubIcon />
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/username"
+              href="https://www.linkedin.com/in/tsabita-khoirunnisa/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-indigo-600 text-white font-medium text-sm hover:bg-indigo-700 transition-colors"
+              className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg bg-indigo-600 text-white font-medium text-sm hover:bg-indigo-700 transition-colors"
             >
               <LinkedInIcon />
               LinkedIn
@@ -46,7 +44,7 @@ export default function Hero() {
               href="/cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-medium text-sm hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+              className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-medium text-sm hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
             >
               Download CV
             </a>
@@ -55,14 +53,11 @@ export default function Hero() {
 
         {/* Profile Photo */}
         <div className="flex-shrink-0">
-          <div className="relative w-44 h-44 sm:w-56 sm:h-56 rounded-full ring-4 ring-indigo-500/30 overflow-hidden bg-gradient-to-br from-indigo-400 to-purple-500">
-            <Image
-              src="/profile-placeholder.png"
-              alt="Profile photo"
-              fill
-              className="object-cover"
-              priority
-            />
+          <div className="w-36 h-36 sm:w-52 sm:h-52 rounded-full ring-4 ring-indigo-500/30 overflow-hidden bg-gradient-to-br from-indigo-400 to-purple-500 flex items-center justify-center">
+            {/* Replace with <Image> once you have a real photo */}
+            <span className="text-5xl sm:text-7xl font-bold text-white select-none">
+              TK
+            </span>
           </div>
         </div>
       </div>

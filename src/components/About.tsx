@@ -5,13 +5,13 @@ export default function About() {
         <SectionHeading>About Me</SectionHeading>
         <div className="mt-8 space-y-4 text-gray-600 dark:text-gray-400 text-base sm:text-lg leading-relaxed">
           <p>
-            Hi! I&apos;m <strong className="text-gray-900 dark:text-white">Your Name</strong>, a passionate full-stack developer based in Indonesia. I love turning ideas into real products — from crafting clean user interfaces to architecting reliable back-end systems.
+            Hi! I&apos;m <strong className="text-gray-900 dark:text-white">Tsabita Khoirunnisa</strong>, an Information System and Technology student who enjoys tinkering with technology — from web development to IoT. I get excited when I can turn an idea into something real that other people can actually use.
           </p>
           <p>
-            I have experience working with modern web technologies like <strong className="text-gray-900 dark:text-white">Next.js</strong>, <strong className="text-gray-900 dark:text-white">TypeScript</strong>, and <strong className="text-gray-900 dark:text-white">Node.js</strong>. I care deeply about code quality, developer experience, and building things that are fast and accessible by default.
+            My experience spans building web apps with <strong className="text-gray-900 dark:text-white">React</strong> and <strong className="text-gray-900 dark:text-white">TypeScript</strong>, wiring up backends with <strong className="text-gray-900 dark:text-white">Supabase</strong>, and building IoT systems on <strong className="text-gray-900 dark:text-white">ESP32</strong>. I believe good technology should be easy to use, not just technically impressive.
           </p>
           <p>
-            When I&apos;m not coding, you&apos;ll find me exploring new tech, contributing to open-source, or enjoying a good cup of coffee while reading engineering blogs.
+            Outside of coding, I enjoy exploring new tools, watching tech documentaries, and occasionally poking around hardware.
           </p>
         </div>
       </div>
