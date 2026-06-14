@@ -14,7 +14,7 @@ export default function Hero() {
             Tsabita Khoirunnisa
           </h1>
           <p className="mt-3 text-lg sm:text-2xl font-medium text-indigo-600 dark:text-indigo-400">
-            Software Developer
+            Software Engineer
           </p>
           <p className="mt-5 text-sm sm:text-lg text-gray-600 dark:text-gray-400 max-w-xl mx-auto md:mx-0 leading-relaxed">
             I love building things that actually work — from collaborative web apps to IoT systems. Always curious about new tech and turning ideas into products people can use.
