@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\Tsabita\\\\OneDrive\\\\Dokumen\\\\portofolio\\\\src\\\\data\")",
+      "Bash(Out-Null)",
+      "Bash(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\Tsabita\\\\OneDrive\\\\Dokumen\\\\portofolio\\\\src\\\\components\")",
+      "Bash(Write-Output \"done\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\Tsabita\\\\OneDrive\\\\Dokumen\\\\portofolio\\\\src\\\\data\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\Tsabita\\\\OneDrive\\\\Dokumen\\\\portofolio\\\\src\\\\components\")"
+    ]
+  }
+}
